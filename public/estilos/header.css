@@ -1,0 +1,11 @@
+body{
+    max-width: 1440px;
+    margin: auto;
+}
+#boton-join{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 40px;
+}
+#boton-contact{
+    border-radius: 40px;
+}

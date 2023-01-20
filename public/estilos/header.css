@@ -9,3 +9,14 @@ body{
 #boton-contact{
     border-radius: 40px;
 }
+#perfil{
+    background-image: url('../assets/perfil.jpg');
+    border-radius: 100px 100px 100px 240px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 6px 10px 10px rgba(0, 0, 0, 0.4);
+}
+#build{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 40px;
+}

@@ -20,6 +20,11 @@ body{
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
     border-radius: 40px;
 }
+.contenedor-info{
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    border-radius: 90px;
+}
+
 @media screen and (min-width: 650px) {
     #perfil {
         background-position-y: -75px;

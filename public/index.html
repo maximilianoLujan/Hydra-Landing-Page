@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/public/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="./estilos/header.css">
-    <title>Document</title>
+    <title>Hydra</title>
 </head>
-<body class="bg-fondo">
+<body class="bg-fondo ">
     <!--
         -Realizando el header de la Pagina Web
     -->
@@ -61,7 +61,7 @@
             </div>
         </div>
             
-        <div class="cursor-pointer lg:hidden">
+        <div class="cursor-pointer md:hidden">
             <svg width="33" height="26" viewBox="0 0 33 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="33" height="3.71429" rx="1.85714" fill="url(#paint0_linear_13_83)"/>
                 <rect y="22.2857" width="33" height="3.71429" rx="1.85714" fill="url(#paint1_linear_13_83)"/>
@@ -82,17 +82,88 @@
                 </defs>
             </svg>                
         </div>
-        <nav class="hidden lg:flex">
+        <nav class="hidden md:flex">
             <a class="text-blanco font-bold text-xs mr-8" href="#ABOUT">ABOUT</a>
             <a class="text-blanco font-bold text-xs mr-8" href="#SERVICES">SERVICES</a>
             <a class="text-blanco font-bold text-xs mr-8" href="#TECHNOLOGIES">TECHNOLOGIES</a>
             <a class="text-blanco font-bold text-xs" href="#HOWTO">HOW TO</a>
         </nav>
-        <div class="hidden lg:flex">
+        <div class="hidden md:flex">
             <button id="boton-contact" class="p-4 text-xs text-blanco font-bold leading-4 mr-4 border-2 border-blanco">CONTACT US</button>
             <button id="boton-join" class="p-4 text-xs text-fondo font-bold leading-4">JOIN HYDRA</button>
         </div>
         
     </header>
+    <!--
+        -Realizando el main
+        -Separando en secciones por contenido
+    -->
+    <main class="w-full overflow-hidden">
+        <section class="relative flex flex-col md:flex-row-reverse">
+            <div class=" flex flex-col items-center py-4 md:w-full">
+                <svg class="absolute z-40 w-full h-full" width="322" height="645" viewBox="0 0 322 645" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.16172 -65C0.411725 52.5736 31.6736 298.574 178.721 341.986C325.769 385.397 328.871 561.417 312.041 644" stroke="url(#paint0_linear_13_103)" stroke-width="6"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_13_103" x1="36" y1="111.5" x2="305.136" y2="617.784" gradientUnits="userSpaceOnUse">
+                    <stop offset="0.0104167" stop-color="#343045"/>
+                    <stop offset="0.229167" stop-color="#C0B7E8"/>
+                    <stop offset="0.776042" stop-color="#8176AF"/>
+                    <stop offset="1" stop-color="#343045"/>
+                    </linearGradient>
+                    </defs>
+                </svg>     
+                <svg class="absolute z-40 w-full h-full" width="289" height="568" viewBox="0 0 289 568" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M348 3C273.214 15.4693 130.842 86.3538 159.641 270.137C188.439 453.92 65.8794 543.289 1 565" stroke="url(#paint0_linear_13_101)" stroke-width="6"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_13_101" x1="306.511" y1="24.0015" x2="91.5549" y2="499.111" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#343045"/>
+                    <stop offset="0.276042" stop-color="#8176AF"/>
+                    <stop offset="0.739583" stop-color="#C0B7E8"/>
+                    <stop offset="1" stop-color="#343045"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <svg class="absolute z-40 w-full h-full" width="390" height="356" viewBox="0 0 390 356" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M454 4.11041C246.803 -6.10288 -166.669 49.7764 -162.975 355" stroke="url(#paint0_linear_13_102)" stroke-width="6"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_13_102" x1="422.102" y1="-3.02489" x2="-153.75" y2="303.359" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#343045"/>
+                    <stop offset="0.213542" stop-color="#C0B7E8"/>
+                    <stop offset="0.71875" stop-color="#8176AF"/>
+                    <stop offset="1" stop-color="#343045"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <div id="perfil" class="w-3/4 h-72 z-50">
+                </div>
+            </div>
+            <div class="z-50 flex flex-col md:w-full md:justify-center">
+                <div class="mx-auto md:w-3/4 md:mb-4">
+                    <div class="flex font-bold text-2xl">
+                        <h2 class="text-letra mr-2">Dive </h2>
+                        <p class="text-blanco">Into The Depths</p>
+                    </div>
+                    <div class="flex font-bold text-2xl">
+                        <p class="text-blanco mr-2 ">Of </p>
+                        <h2 class="text-letra ">Virtual Reality</h2>
+                    </div>
+                </div>
+                <div class="w-3/4 mx-auto hidden md:block text-blanco">
+                    <p >
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt consectetur beatae voluptates harum fugit, fuga totam corrupti nihil tempore. Totam minima corrupti nulla iste sit molestiae veritatis asperiores, nemo magni!
+                    </p>
+                </div>
+                <div class="w-full md:w-3/4 flex items-center">
+                    <button id="build" class="mx-auto p-4 font-bold mt-4 w-3/4 md:w-1/2">
+                        Build your world
+                    </button>
+                    <svg class="hidden md:block" width="46" height="38" viewBox="0 0 46 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M43.8333 19L2.16666 19M43.8333 19L27.1667 35.6667M43.8333 19L27.1667 2.33333" stroke="#C0B7E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

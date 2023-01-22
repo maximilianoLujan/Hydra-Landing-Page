@@ -566,8 +566,16 @@ video {
   margin-right: 1.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .flex {
@@ -584,18 +592,6 @@ video {
 
 .h-72 {
   height: 18rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .h-28 {
@@ -628,6 +624,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -668,9 +668,32 @@ video {
   padding: 1rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -692,6 +715,11 @@ video {
   line-height: 1.5rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -700,12 +728,20 @@ video {
   font-weight: 300;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .font-normal {
   font-weight: 400;
 }
 
 .leading-4 {
   line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .text-blanco {
@@ -721,22 +757,18 @@ video {
   color: rgba(192, 183, 232, 1);
 }
 
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
+.text-buttontext {
+  color: rgba(52, 48, 69, 1);
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
-  }
-
-  .sm\:flex {
-    display: flex;
-  }
-
-  .sm\:w-max {
-    width: -moz-max-content;
-    width: max-content;
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
   }
 
   .sm\:text-gray {
@@ -750,6 +782,10 @@ video {
     margin-bottom: 1rem;
   }
 
+  .md\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -760,6 +796,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-96 {
+    height: 24rem;
   }
 
   .md\:w-full {
@@ -776,6 +816,15 @@ video {
 
   .md\:w-4\/5 {
     width: 80%;
+  }
+
+  .md\:w-max {
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:flex-row-reverse {

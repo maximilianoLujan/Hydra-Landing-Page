@@ -99,9 +99,9 @@
         -Realizando el main
         -Separando en secciones por contenido
     -->
-    <main class="w-full overflow-hidden">
+    <main class="w-full overflow-hidden px-10">
         <section class="relative flex flex-col md:flex-row-reverse">
-            <div class=" flex flex-col items-center py-4 md:w-full">
+            <div class=" flex flex-col items-center py-4 w-full">
                 <svg class="absolute z-40 w-full h-full" width="322" height="645" viewBox="0 0 322 645" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3.16172 -65C0.411725 52.5736 31.6736 298.574 178.721 341.986C325.769 385.397 328.871 561.417 312.041 644" stroke="url(#paint0_linear_13_103)" stroke-width="6"/>
                     <defs>
@@ -170,7 +170,7 @@
             y otra informacion de contacto como el mail
         -->
         <section class="mt-8">
-            <div id="slider" class="h-28 w-3/4 mx-auto flex justify-between contenedor-info p-4 md:w-4/5">
+            <div id="slider" class="h-28 w-3/4 mx-auto flex justify-between contenedor-info p-4 md:w-full">
                 <button  class="md:hidden">
                     <svg class="svgizq" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="pathizq" d="M17.5 21.25L11.25 15L17.5 8.75M3.75 15C3.75 21.2132 8.7868 26.25 15 26.25C21.2132 26.25 26.25 21.2132 26.25 15C26.25 8.7868 21.2132 3.75 15 3.75C8.7868 3.75 3.75 8.7868 3.75 15Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -230,17 +230,17 @@
                 del producto
             -->
         <section class=" mt-8">
-            <div class="flex w-3/4 mx-auto">
-                <div class="w-full sm:w-max">
+            <div class="flex w-3/4 mx-auto md:w-full">
+                <div class="w-full md:w-max">
                     <h2 class="font-bold text-blanco text-2xl text-center mb-2">INTRODUCTION</h2>
                     <h2 class=" text-blanco text-center font-light">TO HYDRA VR</h2>
                 </div>
-                <svg class="hidden sm:block mr-6" width="228" height="100" viewBox="0 0 228 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="hidden md:block mr-6" width="228" height="100" viewBox="0 0 228 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M198.833 50L157.167 50M198.833 50L182.167 66.6666M198.833 50L182.167 33.3333" stroke="#C0B7E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M157.5 50H0" stroke="#C0B7E8" stroke-width="3"/>
                 </svg>                    
-                <div class="hidden sm:flex w-full">
-                    <p class="font-normal text-blanco text-base">
+                <div class="hidden md:flex w-full">
+                    <p class="font-thin text-blanco text-base">
                         Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
                         nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
                         quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
@@ -248,13 +248,50 @@
                     </p>
                 </div>
             </div>
-            <div class="flex flex-col items-center sm:flex-row mt-8">
-                <div id="aboutme-pic" class="w-3/4 h-72 z-50">
+            <div class="flex flex-col items-center md:flex-row mt-8 w-3/4 mx-auto relative overflow-hidden md:w-full">
+                <div id="aboutme-pic" class="w-full h-72 z-50 md:w-1/2 p-4 md:h-96 md:mr-10">
 
                 </div>
-                <div>
-
+                <div class="hidden md:flex flex-col md:w-1/2 p-8 pt-8 items-start">
+                    <h2 class="font-bold text-blanco text-4xl">ABOUT</h2>
+                    <h3 class="font-light text-gray mb-8 text-4xl">HYDRA VR</h3>
+                    <p class="font-normal text-gray leading-5 text-base mb-4">
+                        Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus 
+                        urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida 
+                        dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in. 
+                        Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet 
+                        sed. Consequat semper viverra nam libero justo laoreet sit amet. Aliquam 
+                        etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet 
+                        cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
+                        retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
+                        n tempor.
+                    </p>
+                    <button id="intouch" class="py-2 px-5 text-buttontext text-xs font-bold">
+                        LET'S GET IN TOUCH
+                    </button>
                 </div>
+                <svg class="hidden sm:block absolute h-full" width="1440" height="219" viewBox="0 0 1440 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-4.5 74.5C153.667 21.1667 504.6 -53.5 643 74.5C816 234.5 1071.5 258.5 1186.5 146C1278.5 56 1394.17 70.8333 1440.5 89.5" stroke="url(#paint0_linear_3_54)" stroke-opacity="0.13" stroke-width="6"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_3_54" x1="-5" y1="63" x2="1462" y2="62.9999" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#343045"/>
+                    <stop offset="0.224242" stop-color="#C0B7E8"/>
+                    <stop offset="0.786458" stop-color="#8176AF"/>
+                    <stop offset="0.96875" stop-color="#343045"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+                <svg class="hidden sm:block absolute h-full" width="1440" height="262" viewBox="0 0 1440 262" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1442.5 215C1387.5 104.333 1242.8 -83.7999 1104 49.0001C930.5 215 761.5 331.5 554.5 203.5C347.5 75.5001 34.5 175.5 -6.5 260" stroke="url(#paint0_linear_3_53)" stroke-opacity="0.13" stroke-width="6"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_3_53" x1="-7" y1="105.5" x2="1443" y2="89.0001" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#211E2E"/>
+                    <stop offset="0.3125" stop-color="#C0B7E8"/>
+                    <stop offset="0.765625" stop-color="#8176AF"/>
+                    <stop offset="0.994792" stop-color="#211E2E"/>
+                    </linearGradient>
+                    </defs>
+                </svg>                                            
             </div>
         </section>
     </main>

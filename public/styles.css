@@ -677,15 +677,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:block {
-    display: block;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .sm\:text-gray {
     --tw-text-opacity: 1;
     color: rgb(241 245 249 / var(--tw-text-opacity));
@@ -733,15 +724,14 @@ video {
     justify-content: center;
   }
 
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .md\:text-gray {
@@ -751,11 +741,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
